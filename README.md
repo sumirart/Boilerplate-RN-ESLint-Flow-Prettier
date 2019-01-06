@@ -1,14 +1,15 @@
 # Boilerplate React Native with ESLint, FLow and Prettier
 
-My standard react native app with pre-configured ESLint, Flow, Prettier, Babel
+My standard react native app with pre-configured ESLint, Flow, Prettier, Babel.
+
 Tutorial from: https://medium.com/@sgroff04/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213
 
 ## Required Extensions (Using VS Code)
 
-- [ESLint][https://marketplace.visualstudio.com/items?itemname=dbaeumer.vscode-eslint]
-- [Prettier - Code Formatter][https://marketplace.visualstudio.com/items?itemname=esbenp.prettier-vscode]
-- [Flow Language Support][https://marketplace.visualstudio.com/items?itemname=flowtype.flow-for-vscode]
-- [Babel ES6/ES7][https://marketplace.visualstudio.com/items?itemname=dzannotti.vscode-babel-coloring]
+- [ESLint](https://marketplace.visualstudio.com/items?itemname=dbaeumer.vscode-eslint)
+- [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemname=esbenp.prettier-vscode)
+- [Flow Language Support](https://marketplace.visualstudio.com/items?itemname=flowtype.flow-for-vscode)
+- [Babel ES6/ES7](https://marketplace.visualstudio.com/items?itemname=dzannotti.vscode-babel-coloring)
 
 ## VS Code Settings
 
@@ -43,3 +44,17 @@ cd change-folder-name
 ```
 npm install
 ```
+
+## Some notes
+
+1. Start flow before doing some code
+
+```
+npm run flow start
+```
+
+2. Configure '.eslintrc' if you would like to
+
+3. Restart VS Code if doens't work
+
+4. Googling if still doesn't work :P
