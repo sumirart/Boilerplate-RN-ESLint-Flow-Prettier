@@ -47,13 +47,19 @@ npm install
 
 ## Some notes
 
-1. Start flow before doing some code
+1. Start flow before doing some code (if it doesn't start already)
 
 ```
 npm run flow start
 ```
 
 2. Configure '.eslintrc' if you would like to
+
+3. Add comment '@flow' in top line in every file if you want to use flow
+
+```javascript
+//@flow
+```
 
 3. Restart VS Code if doens't work
 
